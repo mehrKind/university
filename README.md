@@ -1,5 +1,7 @@
 # university
 Program description:
+this app is written by alireza mehraban, and this is about usniversity system.
+app language is all c++ and i use text file to have database.
 The student id of students entering the year 400 is between the numbers 2 and 50, the entry 401 is between 51 and 100, and the entry 99 is between 101 and 150.
 In the first part of the program, by entering the number 1, the student registration process starts.
 By default, the number 500 is for the teacher's ID. If we enter the number 500, we will enter the teacher's panel, and if we enter one of the student numbers, we will enter the student's panel. After entering the student number, the program will determine which year the student is entering.
