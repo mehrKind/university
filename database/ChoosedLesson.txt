@@ -1,0 +1,4 @@
+alireza	mehraban	3 ==>	math 	pishrafte
+
+mahsa	mehraban	400312234 ==> kargah  fizik  pizik 
+alireza	mehraban	400312239 ==> kargah  pishrafte 
