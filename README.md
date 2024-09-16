@@ -1,14 +1,44 @@
-# university
-Program description:
-this app is written by alireza mehraban, and this is about usniversity system.
-app language is all c++ and i use text file to have database.
-The student id of students entering the year 400 is between the numbers 2 and 50, the entry 401 is between 51 and 100, and the entry 99 is between 101 and 150.
-In the first part of the program, by entering the number 1, the student registration process starts.
-By default, the number 500 is for the teacher's ID. If we enter the number 500, we will enter the teacher's panel, and if we enter one of the student numbers, we will enter the student's panel. After entering the student number, the program will determine which year the student is entering.
-Master panel:
-In the first part, the professor can define lessons for all three years.
-The next parts are for adding or removing students, viewing messages sent by students, entering grades of courses chosen by students, etc.
-Student panel:
-The student panel consists of parts such as sending a message to the teacher, viewing the lessons defined by the teacher, choosing the defined lessons and viewing the grade given by the teacher to each lesson. The grade entered by the teacher is before and after the name of the courses, respectively.
-In order, from left to right, the grade of the first lesson corresponds to the first grade.
-The rest are very clear and complete.
+# University System App
+
+This app is written by Alireza Mehraban and is designed for a university system. The app is entirely written in C++ and uses text files for its database.
+
+## Student ID Ranges
+- **Entry Year 400**: Student IDs are between 2 and 50.
+- **Entry Year 401**: Student IDs are between 51 and 100.
+- **Entry Year 99**: Student IDs are between 101 and 150.
+
+## Program Overview
+
+### Main Features
+1. **Student Registration**: 
+   - The registration process starts by entering the number `1`.
+   
+2. **User Panels**:
+   - **Teacher's Panel**: 
+     - Accessed by entering the ID `500`.
+   - **Student Panel**: 
+     - Accessed by entering a valid student ID.
+
+### Student Identification
+Upon entering a student number, the program will determine the entry year of the student.
+
+## Master Panel (Teacher)
+The teacher can perform the following actions:
+- Define lessons for all three years.
+- Add or remove students.
+- View messages sent by students.
+- Enter grades for courses chosen by students.
+
+## Student Panel
+The student panel includes the following features:
+- Send messages to the teacher.
+- View lessons defined by the teacher.
+- Choose from the defined lessons.
+- View grades assigned by the teacher for each lesson.
+
+### Grade Format
+The grade entered by the teacher is displayed before and after the name of the courses, respectively. The first grade corresponds to the first lesson, and the rest follow in order.
+
+---
+
+This app aims to streamline the university management process for both students and teachers.
